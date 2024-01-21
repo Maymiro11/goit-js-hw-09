@@ -67,6 +67,9 @@ const images = [
   },
 ];
 
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const arrayOfImages = images
   .map(
     item => `<li class="gallery-item">
