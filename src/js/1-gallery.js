@@ -67,7 +67,6 @@ const images = [
   },
 ];
 
-
 const arrayOfImages = images
   .map(
     item => `<li class="gallery-item">
