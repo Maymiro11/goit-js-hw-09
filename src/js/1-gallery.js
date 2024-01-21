@@ -67,8 +67,6 @@ const images = [
   },
 ];
 
-import SimpleLightbox from 'simplelightbox';
-
 
 const arrayOfImages = images
   .map(
