@@ -1,30 +1,12 @@
-
-
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-
-//**:root {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
-  font-weight: 400;
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-/* Reset styles  */
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -88,6 +70,8 @@ header {
 
 .gallery-item {
   width: calc((100% - (2 * 24px)) / 3);
+  max-width: 360px;
+	max-height: 200px;
 }
 
 .gallery-image {
@@ -100,7 +84,7 @@ header {
 .gallery-image:hover {
   transform: scale(1.04);
 }
-
+/* ==== FORM ==== */
 .feedback-form {
   max-width: 408px;
   padding: 24px;
@@ -167,4 +151,4 @@ button {
 
 button:hover {
   background-color: #6C8CFF;
-} */
+}
