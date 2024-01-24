@@ -85,11 +85,11 @@ const arrayOfImages = images
   )
   .join('\n\n');
 
-const gallery = document.querySelector('.gallery');
-gallery.insertAdjacentHTML('afterbegin', arrayOfImages);
-document
-  .querySelector('.gallery')
-  .addEventListener('click', e => e.preventDefault());
+//const gallery = document.querySelector('.gallery');
+//gallery.insertAdjacentHTML('afterbegin', arrayOfImages);
+//document
+//  .querySelector('.gallery')
+//  .addEventListener('click', e => e.preventDefault());
 
 const lightboxForGallery = new SimpleLightbox('.gallery-link', {
   captionsData: 'alt',
